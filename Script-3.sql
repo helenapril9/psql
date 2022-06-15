@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS Jenre (
   CREATE TABLE IF NOT EXISTS Album (
  	id SERIAL PRIMARY KEY,
  	jenre_name VARCHAR(60) NOT null
+  album_name VARCHAR(60) NOT null
    album_year VARCHAR(4) NOT null
  );
   CREATE TABLE IF NOT EXISTS Collection (
